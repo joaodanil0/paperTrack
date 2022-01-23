@@ -1,10 +1,10 @@
 """
     [summary]
 """
-import os
-from dotenv import load_dotenv, find_dotenv
 
-load_dotenv(find_dotenv())
+from src.app.models.user_model import UserModel
 
 
-print(os.getenv("TEST"))
+user = UserModel()
+user.create_table()
+

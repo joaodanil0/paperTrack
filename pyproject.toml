@@ -7,6 +7,7 @@ authors = ["joão danilo <joaodanilo1992@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 python-dotenv = "^0.19.2"
+peewee = "^3.14.8"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.12.2"

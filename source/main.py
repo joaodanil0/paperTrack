@@ -1,6 +1,10 @@
-from dotenv import load_dotenv
+"""
+    [summary]
+"""
+import os
+from dotenv import load_dotenv, find_dotenv
 
-config = load_dotenv(".env")
+load_dotenv(find_dotenv())
 
 
-print(config)
+print(os.getenv("TEST"))
